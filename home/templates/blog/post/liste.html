@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        
+<!--
+ header
+-->
+
+
+
+<section class="position-relative py-6">
+    <div class="container">
+      <img class="bg-image" src="/static/assets/1.jpg" alt="">
+      <div class="row">
+        <div class="col-lg-5 mt-7 ml-7">
+          <div class="bg-white rounded-lg shadow p-5"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">EPAM</strong>
+            <h2 class="mb-3">Ensemble Pour un Avenir Meilleur</h2>
+            <p class="text-muted"> Dont la devise est : Volonté-Travail-Réussite prône pour un monde meilleur, une Mauritanie prospère où les jeunes et les femmes sont les maitres de leurs destins.</p><!--a class="btn btn-link p-0" href="post.html">Continue reading <i class="fa fa-long-arrow-alt-right"></i></a-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-2">
+            <div class="bg-white rounded-lg shadow p-5"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h2>PROJETS</h2></strong>
+                <p class="mb-3">Les principales activités déjà réalisées sont deux ateliers en Planification et Gestion de Projet Février 2014 et trois Journées de concertation et d’échanges sur le VIH/SIDA en Mauritanie (à Nouakchott) La thématique se portait sur le nombre élevé du VIH/SIDA chez les adolescents et les jeunes filles en Mauritanie en partenariat avec le Secrétariat exécutif de lutte contre le SIDA en Mauritanie Décembre 2015.</p>
+            <!--h1 class="fw-bolder">Welcome to Blog Home!</h1>
+            <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p-->
+        </div>
+    </div>
+</header>
+
+  <!--
+ header
+-->
+
+
+<section class="py-6">
+    <div class="container">
+      <div class="row mb-5">
+        <!-- blog item-->
+        {% for post in posts %}
+        <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
+          <div class="card shadow border-0 h-100">
+            <a href="{% url 'post_details' post.slug %}">
+              <img class="img-fluid card-img-top" src="/uploads/{{post.image}}" alt="..."/></a>
+            <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">
+              {{post.user.username}} </a>
+              <h5 class="my-2"><a class="text-dark" href="{% url 'post_details' post.slug %}">
+               {{post.title}} </a></h5>
+
+               
+
+              <p class="text-gray-500 text-sm my-3"><i class="far fa-clock mr-2"></i>
+                {{post.created_at}}</p>
+              <!-- <p class="my-2 text-muted text-sm">
+                {{blog.content|safe}}
+              </p>
+            -->
+              <a class="btn btn-link pl-0"href="{% url 'post_details' post.slug %}">Plus de details<i class="fa fa-long-arrow-alt-right ml-2"></i></a> 
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      
+      
+      </div>
+      {% include 'blog/layouts/pagination.html' with page=posts%}
+    </div>
+  </section>
+
+{% endblock content %}
+
+
+
+

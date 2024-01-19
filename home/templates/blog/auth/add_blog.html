@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section>
+    <header class="py-5 bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <div class="bg-white rounded-lg shadow p-5">
+                    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">
+                        <h2>Ajouter un nouveau post</h2>
+                    </strong>
+            </div>
+        </div>
+    </header>
+</section>
+<div class="container">
+
+    <a href="{% url 'see_blog' %}" class="btn btn-warning mt-3 float-right">Liste des Posts</a>
+
+
+    <form method="post" class="mt-5 pt-5 mb-5 pb-5" style="width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;" enctype="multipart/form-data">
+    {% csrf_token %}
+        <div class="row">
+
+            <div class="col-md-12">
+                {{form.media}}
+                {{form.as_p}}
+            </div>
+
+            {% comment %} <div class="col-md-12">
+                <input class="form-control" type="file" name="image">
+            </div> {% endcomment %}
+        </div>
+        <button class="btn btn-primary mt-4" type="submit">Ajouter</button>
+    </form>
+</div>
+
+
+{%endblock content%}

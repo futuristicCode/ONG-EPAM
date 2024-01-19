@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container" style="padding-top: 10px;padding-bottom: 20px;">
+<div>
+    <main class="form-signin text-center" style="width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;">
+        <div class="container px-5 my-5">
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="." method="POST">
+              {% csrf_token %}
+            <h1 class="h3 mb-5 fw-normal">Ajouter des utilisateurs</h1>
+              <div class="form-floating mb-3">
+                  <!--input class="form-control" id="nom" type="text" placeholder="Nom" data-sb-validations="required" /-->
+                  {{user_form.first_name}}
+                  <label for="{{user_form.first_name.id_for_label}}">Nom</label>
+                  <div class="invalid-feedback" data-sb-feedback="nom:required">Nom is required.</div>
+              </div>
+              <div class="form-floating mb-3">
+                  <!--input class="form-control" id="prenom" type="text" placeholder="Prenom" data-sb-validations="required" /-->
+                  {{user_form.last_name}}
+                  <label for="{{user_form.last_name.id_for_ladel}}">Prenom</label>
+                  <div class="invalid-feedback" data-sb-feedback="prenom:required">Prenom is required.</div>
+              </div>
+              <div class="form-floating mb-3">
+                <!--input class="form-control" id="username" type="text" placeholder="Utilisateur" data-sb-validations="required" /-->
+                {{user_form.username}}
+                <label for="{{user_form.username.id_for_ladel}}">Utilisateur</label>
+                <div class="invalid-feedback" data-sb-feedback="username:required">Utilisateur is required.</div>
+            </div>
+              <div class="form-floating mb-3">
+                  <!--input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" /-->
+                  {{user_form.email}}
+                  <label for="{{user_form.email.id_for_ladel}}">Email Address</label>
+                  <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                  <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+              </div>
+              <div class="form-floating mb-3">
+                  <!--input class="form-control" id="motDePasse" type="text" placeholder="Mot de passe" data-sb-validations="required" /-->
+                  {{user_form.password}}
+                  <label for="{{user_form.password.id_for_ladel}}">Mot de passe</label>
+                  <div class="invalid-feedback" data-sb-feedback="motDePasse:required">Mot de passe is required.</div>
+              </div>
+              <div class="form-floating mb-3">
+                  <!--input class="form-control" id="confirmer" type="text" placeholder="Confirmer" data-sb-validations="required" /-->
+                  {{user_form.confirmer}}
+                  <label for="user_form.confirmer.id_for_ladel">Confirmer</label>
+                  <div class="invalid-feedback" data-sb-feedback="confirmer:required">Confirmer is required.</div>
+              </div>
+
+              <div class="d-none" id="submitSuccessMessage">
+                  <div class="text-center mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      <p>To activate this form, sign up at</p>
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                  </div>
+              </div>
+              <div class="d-none" id="submitErrorMessage">
+                  <div class="text-center text-danger mb-3">Error sending message!</div>
+              </div>
+              <div class="d-grid">
+                  <button class="btn btn-primary btn-lg " id="submitButton" type="submit">Ajouter</button>
+              </div>
+          </form>
+      </div>
+      
+      </form>
+    </div>
+  </div>
+
+{% endblock content %}
+

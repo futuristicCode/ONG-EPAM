@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+  <header class="py-5 bg-light border-bottom mb-4">
+      <div class="container">
+          <div class="text-center my-2">
+              <div class="bg-white rounded-lg shadow p-5">
+                  <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">
+                      <h2>A Propos de Nous</h2>
+                  </strong>
+                  <p class=text-center>
+                    Crée le 03 Septembre 2013, l’ONG Ensemble Pour un Avenir Meilleur a pour mission d’éveiller et de motiver les jeunes et les femmes mauritaniens pour qu’ils puissent contribuer au développement économique, social et culturel du pays.
+                  </p>
+          </div>
+      </div>
+  </header>
+</section>
+
+ <!-- START THE FEATURETTES -->
+ <div class="container marketing">
+ {% comment %} <hr class="featurette-divider"> {% endcomment %}
+
+ <div class="row featurette">
+   <div class="col-md-7 text-center">
+    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm text-center">
+      <h2 class="featurette-heading text-center">EPAM</h2>
+    </strong>
+     
+     <p class="text-center">
+      Ensemble Pour un Avenir Meilleur dont la devise est : Volonté-Travail-Réussite prône pour un monde meilleur, une Mauritanie prospère où les jeunes et les femmes sont les maitres de leurs destins.
+     </p>
+   </div>
+   <div class="col-md-5">
+     {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+     <img src="{{'/static/assets/logo.png'}}" width="300" height="300" class="rounded d-inline-block align-top" alt="">
+   </div>
+ </div>
+
+ <hr class="featurette-divider">
+
+ <div class="row featurette">
+   <div class="col-md-7 order-md-2 text-center  ">
+    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm text-center">
+      <h2 class="featurette-heading text-right">Notre Mission</h2>
+    </strong>
+     
+     <p class=" text-center">
+      Promouvoir les Droits Humains à travers des renforcements de capacités sur les droits et les devoirs des citoyens,l’engagement citoyen, le développement personnel, la protection de la Femme et de l’Enfant, la prévention de la radicalisation violente dans les zones vulnérables, la santé et l’éducation.
+      Promouvoir le développement à travers des renforcements des capacités sur la planification et la gestion des projets, le développement des Activités génératrices de revenus et sur le « GERME » Gérer Mieux son Entreprise.
+      Promouvoir la protection de l’environnement à travers des séances de causeries et sensibilisation sur la protection environnementale, le civisme, la mise en place des parcs écologiques dans des places inondables et le recyclage des objets usés.
+
+     </p>
+   </div>
+   <div class="col-md-5 order-md-1">
+     {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+     <img src="{{'/static/assets/about-mission.jpg'}}" width="300" height="300" class="rounded d-inline-block align-top" alt="">
+   </div>
+ </div>
+
+ <hr class="featurette-divider">
+
+ <div class="row featurette">
+   <div class="col-md-7 text-center">
+    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm text-center">
+      <h2 class="featurette-heading text-right">Notre Plan</h2>
+    </strong>
+     
+     <p class=" text-center">
+      EPAM continue son engagement auprès des jeunes et des femmes dans les domaines de la citoyenneté, de la protection de l’environnement, de l’entreprenariat, du développement personnel et autres.
+     </p>
+    
+   </div>
+   <div class="col-md-5">
+     {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+     <img src="{{'/static/assets/about-plan.jpg'}}" width="300" height="300" class="rounded d-inline-block align-top" alt="">
+   </div>
+ </div>
+
+ <hr class="featurette-divider">
+
+ <div class="row featurette">
+   <div class="col-md-7 order-md-2 text-center  ">
+    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm text-center">
+      <h2 class="featurette-heading text-right">Notre Vision</h2>
+    </strong>
+     
+     <p class=" text-center">
+      Ensemble Pour un Avenir Meilleur est parti d’un constat dû au manque de motivation et de participation des jeunes et des femmes dans les affaires de l’état. Donc à travers des renforcements de capacités, des sensibilisations communautaires et des forums.
+     </p>
+   </div>
+   <div class="col-md-5 order-md-1">
+     {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+     <img src="{{'/static/assets/about-vision.jpg'}}" width="300" height="300" class="rounded d-inline-block align-top" alt="">
+   </div>
+ </div>
+</div>
+<hr class="featurette-divider mb-7">
+ <!-- /END THE FEATURETTES -->
+ {% endblock content %}

@@ -1,0 +1,62 @@
+{% comment %} {% extends 'base.html' %}
+
+{% block content %}
+<!--div class="container" style="padding-top: 20px;padding-bottom: 20px;">
+<div>
+    <main class="form-signin text-center" style="width: 100%;
+    max-width: 380px;
+    padding: 41px;
+    margin: auto;">
+        <form method="POST" action=".">
+            {% csrf_token %} 
+          <img class=" rounded mb-4" src="/static/assets/logo.png" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 fw-normal">Authentification</h1>
+      
+          <div class="form-floating mb-4">
+            <input type="username" name="username" class="form-control" id="floatingInput" placeholder="Nom de l'utilisateur">
+            <label for="floatingInput">Utilisateur</label>
+          </div>
+          <div class="form-floating mb-4">
+            <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Mot de passe">
+            <label for="floatingPassword">Mot de passe</label>
+          </div>
+      
+          
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Connecter</button>
+        </form>
+      </main>
+      </div>
+</div-->
+
+<div class="container-fluid px-3">
+    <div class="row min-vh-100">
+      <div class="col-md-8 col-lg-6 col-xl-5 d-flex align-items-center">
+           <div class="w-100 py-5 px-md-5 px-xl-6 position-relative text-center">
+            <form method="POST" action=".">
+                {% csrf_token %} 
+              <img class=" rounded mb-4" src="/static/assets/logo.png" alt="" width="100" height="80">
+          
+              <div class="form-floating mb-4">
+                <input type="username" name="username" class="form-control" id="floatingInput" placeholder="Nom de l'utilisateur">
+                <label for="floatingInput">Utilisateur</label>
+              </div>
+              <div class="form-floating mb-4">
+                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Mot de passe">
+                <label for="floatingPassword">Mot de passe</label>
+              </div>
+          
+              
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Connecter</button>
+            </form>
+           
+          
+           </div>
+      </div>
+      <div class="col-md-4 col-lg-6 col-xl-7 d-none d-md-block">
+          <!-- Image-->
+          <div class="bg-cover h-100 mr-n3" style="background-image: url(https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);"></div>
+      </div>
+    </div>
+</div>
+
+{% endblock content %} {% endcomment %}

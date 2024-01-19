@@ -1,0 +1,164 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        
+<!--
+ header
+-->
+
+<header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-2">
+            <div class="bg-white rounded-lg shadow p-5"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h2>Services & Partenaires </h2></strong>
+              
+            <!--h1 class="fw-bolder">Welcome to Blog Home!</h1>
+            <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p-->
+        </div>
+    </div>
+</header>
+
+  <!--
+ header
+-->
+
+<!--  SERVICES -->
+
+
+<section class="py-6">
+  <div class="container">
+    <div class="row mb-5">
+      <!-- blog item-->
+      <div class="col-lg-6 text-center">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-0">Promouvoir les Droits Humains et les Libertés Individuelles</h6>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-4">Promouvoir la Fraternité et le vivre ensemble</h6>
+        </div>
+      </div>
+      
+      
+
+      <div class="col-lg-6 mt-3 text-center">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-0">Promouvoir l’Education Citoyenne( droits et devoirs des citoyens) et Académique</h6>
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 mt-3">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-4">Prévention de l’extrémisme violent</h6>
+        </div>
+      </div>
+      
+
+
+      <div class="col-lg-6 mt-3">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-2">Lutte contre la pauvreté. (Développement des AGR)</h6>
+        </div>
+      </div>
+     
+
+
+      <div class="col-lg-6 mt-3">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-2">Promouvoir l’Entreprenariat féminin</h6>
+        </div>
+      </div>
+      
+
+
+      <div class="col-lg-6 mt-3">
+        <div class="bg-white rounded-lg shadow p-5">
+          <h6 class="mb-2">La protection de l’Environnement</h6>
+        </div>
+      </div>
+    
+    
+    </div>
+  </div>
+</section>
+
+
+<!--  FAITS -->
+
+<section>
+  <header class="py-5 bg-light border-bottom mb-4">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="bg-white rounded-lg shadow p-5 text-center"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h2>Faits </h2></strong>
+      </div>
+
+      <div class="col-lg-2 mt-3 text-center ml-4 mr-7 mt-5">
+        <div class="bg-white rounded-lg shadow p-5">
+          <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">
+            <h1>10
+              <!--{% with partenaires.count as total_partenaires %}
+                {{partenaire.count}}
+              {% endwith %}-->
+            </h1>
+          </strong>
+          <p class="text-center">Partenaires<p>
+            
+        </div>
+      </div>
+
+      
+      <div class="col-lg-2 mt-3 text-center ml-7  mr-7 mt-5">
+        <div class="bg-white rounded-lg shadow p-5">
+          <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h1>10</h1></strong>
+          <p class="text-center">Partenaires<p>
+        </div>
+      </div>
+      
+
+
+      <div class="col-lg-2 mt-3 text-center ml-7  mt-5">
+        <div class="bg-white rounded-lg shadow p-5">
+          <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h1>9</h1></strong>
+          <p>Partenaires<p>
+        </div>
+      </div>
+  </div>
+</header>
+  </section>
+
+
+  <!--  PARTENAIRES -->
+<section>
+<header class="py-5 bg-light border-bottom mb-4">
+<div class="container">
+  <div class="text-center my-2">
+    <div class="bg-white rounded-lg shadow p-5"><strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm"><h2>Partenaires </h2></strong>
+    </div>
+</div>
+</section>
+
+
+<section class="py-6">
+    <div class="container">
+      <div class="row mb-5">
+        <!-- blog item-->
+        {% for partenaire in partenaires %}
+        <div class="col-lg-2 col-sm-6 mb-2 hover-animate">
+          <div class="card shadow border-0 h-100">
+              <img class="img-fluid card-img-top" src="/uploads/{{partenaire.image}}" alt="..."/></a>
+            <div class="card-body"><a class="text-uppercase text-center text-muted text-sm letter-spacing-2" href="#">
+              {{partenaire.nom}}</a>
+              </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+
+
+{% endblock content %}

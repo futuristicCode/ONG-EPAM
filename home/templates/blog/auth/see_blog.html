@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+    <header class="py-5 bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-2">
+                <div class="bg-white rounded-lg shadow p-5">
+                    <strong class="text-uppercase text-secondary d-inline-block mb-2 text-sm">
+                        <h2>Liste des posts</h2>
+                    </strong>
+            </div>
+        </div>
+    </header>
+</section>
+
+<section class="mt-1 pt-5 mb-5">
+    <div class="container">
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Titre</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Auteur</th>
+                    <th scope="col">Date de creation</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for post in posts %}
+                <tr>
+                    <th scope="row">{{forloop.counter}}</th>
+                    <td>{{post.title}}</td>
+                    <td>{{post.status}}</td>
+                    <td>{{post.author}}</td>
+                    <td>{{post.created_at | date:"d-m-y"}}</td>
+                    <td>
+                        <a href="{% url 'update_blog' post.id %}" class="btn btn-success">Modifier</a>
+                        <a href="{% url 'blog_delete' post.id %}" class="btn btn-danger">Supprimer</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+          </table>          
+    </div>
+</div>
+{% include 'blog/layouts/pagination.html' with page=posts%}
+</div>
+</section>
+
+{% endblock content %}
