@@ -1,0 +1,354 @@
+[
+{
+  "model": "home.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "is_verified": true,
+    "token": "gsvljDSck4wqhdgefhsdikhnj"
+  }
+},
+{
+  "model": "home.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "is_verified": true,
+    "token": "fgheklf;ruhpuwfhdfsdklh"
+  }
+},
+{
+  "model": "home.post",
+  "pk": 4,
+  "fields": {
+    "title": "Phase 1-Emergence des jeunes",
+    "slug": "phase-1-emergence-des-jeunes",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><strong>D&eacute;tails du projet</strong></h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Reconnaitre leur place dans la soci&eacute;t&eacute; dont les activit&eacute;s sur la vie associative, des renforcements de capacit&eacute;s de 40 organisations de la soci&eacute;t&eacute; civile sur la planification et la gestion des projets &agrave; Sebkha, la formation de 100 jeunes sur la citoyennet&eacute; et le d&eacute;veloppement local &agrave; sebkha, la formation de 62 jeunes sur les technique de communication au niveau de Bogh&eacute;, une mission d&rsquo;&eacute;change avec la soci&eacute;t&eacute; civile s&eacute;n&eacute;galaise &agrave; Dakar ( ong l&rsquo;Empire des Enfants, l&rsquo;Association Tekki Art, le Centre de Sauvegarde, les Fab lab) ont &eacute;t&eacute; ex&eacute;cut&eacute; entre Novembre 2015- Novembre 2016. Ce projet a &eacute;t&eacute; Financ&eacute; par le SCAC (service de coop&eacute;ration et d&rsquo;Action Culturelle de l&rsquo;Ambassade de France en Mauritanie &agrave; hauteur de 998550 Mru.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/phase1-1.jpg",
+    "created_at": "2022-03-27T20:29:21.158Z",
+    "upload_to": "2022-04-02T18:25:01.626Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 5,
+  "fields": {
+    "title": "Ateliers de Capitalisation",
+    "slug": "ateliers-de-capitalisation",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Trois Ateliers de Capitalisation du Projet Emergence des Jeunes (Financ&eacute; par Fajr) entre le 08 Janvier et le 04 Mars 2017 &agrave; Nouakchott au si&egrave;ge de l&rsquo;ONG EPAM.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/atel2.jpg",
+    "created_at": "2022-03-27T20:40:45.708Z",
+    "upload_to": "2022-04-02T18:24:37.314Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 6,
+  "fields": {
+    "title": "Phase 2-Emergence des Jeunes",
+    "slug": "phase-2-emergence-des-jeunes",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Emergence des Jeunes (Juillet 2017- Mai 2018) pour la p&eacute;rennisation et la consolidation des acquis de la premi&egrave;re phase Fajr II de l&rsquo;ambassade de France en Mauritanie financ&eacute; &agrave; hauteur de 750.000 MRU. dont les activit&eacute;s de sensibilisation sur le r&ocirc;le de la femme dans le d&eacute;veloppement local, le droit d&rsquo;avoir les papiers d&rsquo;&eacute;tat civil, le danger li&eacute; au mariage pr&eacute;coce au niveau du d&eacute;partement de Bogh&eacute; ( la commune de Bogh&eacute;, la commune de Dar el Barka, la commune de Dar El Avia et la commune de woul Birome), une mission d&rsquo;&eacute;change et de partage d&rsquo;exp&eacute;rience avec les organisations de la soci&eacute;t&eacute; civile saint louisienne ( S&eacute;n&eacute;gal), une caravane de sensibilisation en milieu scolaire( 6 &eacute;tablissements scolaires) et p&eacute;riscolaire (6 quartiers de la commune de Sebkha), une foire des jeunes sous le th&egrave;me : Jeunesse et Engagement citoyen , ont &eacute;t&eacute; ex&eacute;cut&eacute; entre Juillet 2017 et Avril 2018.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/phase2-2.jpg",
+    "created_at": "2022-03-27T20:52:27.340Z",
+    "upload_to": "2022-04-02T18:24:09.930Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 7,
+  "fields": {
+    "title": "Caravane de Sensibilisation",
+    "slug": "caravane-de-sensibilisation",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Janvier 2019- Avril 2019, EPAM en partenariat avec les OSC locales et le r&eacute;seau mauritanien des Droits de l&#39;Homme a organis&eacute; une caravane de sensibilisation sur les Droits Humains en milieu scolaire et p&eacute;riscolaire au niveau de la commune de Sebkha.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/carav1.jpg",
+    "created_at": "2022-03-27T20:56:51.369Z",
+    "upload_to": "2022-04-02T18:22:47.961Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 8,
+  "fields": {
+    "title": "Concertation Communale",
+    "slug": "concertation-communale",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>EPAM est membre du Comit&eacute; de Concertation Communale mis en place par la nouvelle &eacute;quipe municipale de Sebkha depuis Janvier 2019. Le pr&eacute;sident de l&rsquo;EPAM assure la pr&eacute;sidence du Comit&eacute; de Concertation Communale jusqu&rsquo;&agrave; Janvier 2021.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p><br></p>",
+    "image": "uploads/con1.jpg",
+    "created_at": "2022-03-27T20:59:37.979Z",
+    "upload_to": "2022-04-02T18:22:36.357Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 9,
+  "fields": {
+    "title": "Collectif Oser l’Avenir",
+    "slug": "collectif-oser-lavenir",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>EPAM est membre du Collectif Oser l&rsquo;Avenir : un groupement d&rsquo;ONG de la commune de Sebkha et d&rsquo;El Mina.</p>",
+    "image": "uploads/collec1.jpg",
+    "created_at": "2022-03-27T21:08:42.399Z",
+    "upload_to": "2022-04-02T18:22:21.905Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 10,
+  "fields": {
+    "title": "Identification et Suivi-évaluation",
+    "slug": "identification-et-suivi-evaluation",
+    "body": "<h2 style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><br></h2><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>En partenariat avec l&rsquo;Association Mauritanienne pour l&rsquo;Auto D&eacute;veloppement &ndash;AMAD-, L&rsquo;Association pour le D&eacute;veloppement Communautaire &ndash;ADC- et la Commune de Bogh&eacute;, EPAM assure l&rsquo;identification et le suivi-&eacute;valuation des AGR au niveau des villages de Say&eacute;, Houdallaye et Dagvet. Des Activit&eacute;s subventionn&eacute;es par AMAD et ses partenaires (Juillet 2019- D&eacute;cembre 2019).</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/ident1.jpg",
+    "created_at": "2022-03-27T21:12:03.434Z",
+    "upload_to": "2022-04-02T18:22:10.319Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 11,
+  "fields": {
+    "title": "Projet Migrants de Caritas",
+    "slug": "projet-migrants-de-caritas",
+    "body": "<p><br></p><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>En partenariat avec le Projet Migrants de Caritas, EPAM a men&eacute; une campagne de sensibilisation sur le vivre ensemble et la coh&eacute;sion sociale dans le cadre de l&rsquo;initiative intitul&eacute;e : le Respect de l&rsquo;Autre : Un Devoir de Chaque Citoyen au niveau des six quartiers de la commune de Sebkha. D&eacute;cembre 2019- Mai 2020.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "image": "uploads/caritas1.jpg",
+    "created_at": "2022-03-27T21:15:49.820Z",
+    "upload_to": "2022-04-02T18:21:54.906Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 12,
+  "fields": {
+    "title": "CORIM",
+    "slug": "corim",
+    "body": "<p><br></p><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">D&eacute;tails du projet</h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>En partenariat avec le programme Corim, Ensemble Pour un Avenir Meilleur en consortium avec l&#39;ong Sante Globale a mis en &oelig;uvre le Projet d&#39;Appui &agrave; la R&eacute;silience des Communaut&eacute;s Vuln&eacute;rables face aux risques de Radicalisation dans les communes d&#39;El Mina, Arafat et Riyad. Des associations de jeunes, des groupement f&eacute;minins ont &eacute;t&eacute; form&eacute;s sur la Pr&eacute;vention de la Radicalisation Violente, la Citoyennet&eacute;, le d&eacute;veloppement personnel, la vie associative et l&#39;&eacute;ducation financi&egrave;re . Octobre 2020- F&eacute;vrier 2021.</p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p><br></p>",
+    "image": "uploads/corim1.jpg",
+    "created_at": "2022-03-27T21:17:56.114Z",
+    "upload_to": "2022-04-02T18:21:44.163Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 13,
+  "fields": {
+    "title": "Parc Ecologique",
+    "slug": "parc-ecologique",
+    "body": "<p><br></p><h2 id=\"isPasted\" style=\"box-sizing: border-box; margin: 0px 0px 20px; font-weight: 700; line-height: 1.2; font-size: 26px; font-family: Montserrat, sans-serif; padding: 0px; width: 558px; color: rgb(102, 102, 102); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><span style=\"color: rgb(0, 0, 0);\">D&eacute;tails du projet</span></h2><p style='box-sizing: border-box; margin: 0px 0px 30px; padding: 0px; color: rgb(102, 102, 102); font-family: \"Open Sans\", sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style=\"font-size: 24px; color: rgb(0, 0, 0);\">Ce projet d&rsquo;am&eacute;nagement d&rsquo;un parc &eacute;cologique consiste &agrave; soutenir la protection de l&rsquo;environnement et &agrave; transformer des objets biod&eacute;gradables dans la commune de Sebkha &agrave; Nouakchott. Sebkha est une commune qui regorge d&rsquo;espaces publics &agrave; l&rsquo;abandon qui servent de d&eacute;potoirs et de garages sauvages. Afin de revaloriser ces espaces publics, le projet pr&eacute;voit la mise en place d&rsquo;un parc &eacute;cologique o&ugrave; des activit&eacute;s li&eacute;es aux th&eacute;matiques environnementales seront r&eacute;alis&eacute;es : l&rsquo;implantation des arbres, l&rsquo;organisation de journ&eacute;es de nettoyage, le recyclage des objets us&eacute;s ainsi que la formation des jeunes &agrave; la protection de l&rsquo;environnement ou encore l&rsquo;accompagnement des coop&eacute;ratives f&eacute;minines pour b&acirc;tir un environnement sain. L&rsquo;organisation d&rsquo;activit&eacute;s culturelles pour promouvoir la coh&eacute;sion sociale et le vivre ensemble permettra &agrave; la population constitu&eacute;e de diff&eacute;rentes communaut&eacute;s de se retrouver et de se solidariser autour d&rsquo;un id&eacute;al commun, qui est la protection de l&rsquo;environnement. Ce projet permet non seulement &agrave; la commune d&rsquo;avoir des espaces publics valoris&eacute;s, mais il favorise &eacute;galement le vivre ensemble entre toutes les communaut&eacute;s.</span></p><p><img src=\"https://i.froala.com/assets/photo4.jpg\" data-id=\"4\" data-type=\"image\" data-name=\"Image 2023-12-25 at 15:12:41.jpg\" alt=\"Image 2023-12-25 at 15:12:41.jpg\" data-tag=\"beach\" data-url=\"https://i.froala.com/assets/photo4.jpg\" style=\"width: 1252px;\" class=\"fr-fic fr-dib\"></p><p><br></p>",
+    "image": "uploads/parc.jpg",
+    "created_at": "2022-03-27T21:19:24.921Z",
+    "upload_to": "2024-01-19T00:22:34.981Z",
+    "status": "published",
+    "publish": "2022-03-27T20:24:57Z",
+    "author": 2
+  }
+},
+{
+  "model": "home.post",
+  "pk": 18,
+  "fields": {
+    "title": "tournoi pele",
+    "slug": "tournoi-pele",
+    "body": "<p>premier journee</p>",
+    "image": "uploads/PG_INS.png",
+    "created_at": "2022-04-10T04:27:09.540Z",
+    "upload_to": "2022-04-10T04:37:56.619Z",
+    "status": "published",
+    "publish": "2022-04-10T04:26:28Z",
+    "author": 1
+  }
+},
+{
+  "model": "home.post",
+  "pk": 20,
+  "fields": {
+    "title": "testt",
+    "slug": "",
+    "body": "<p>test</p>",
+    "image": "uploads/tEST_EPjANwZ.png",
+    "created_at": "2022-08-30T22:22:05.230Z",
+    "upload_to": "2022-08-30T22:22:05.230Z",
+    "status": "draft",
+    "publish": "2022-08-30T22:14:11.682Z",
+    "author": 1
+  }
+},
+{
+  "model": "home.post",
+  "pk": 21,
+  "fields": {
+    "title": "Test",
+    "slug": "test",
+    "body": "<p>Test123</p>",
+    "image": "uploads/arta.jpg",
+    "created_at": "2024-01-18T23:21:43.892Z",
+    "upload_to": "2024-01-19T00:07:01.369Z",
+    "status": "published",
+    "publish": "2024-01-18T23:20:01Z",
+    "author": 1
+  }
+},
+{
+  "model": "home.comment",
+  "pk": 1,
+  "fields": {
+    "post": 4,
+    "username": "Oumar Amadou Bocar Ba",
+    "email": "baoumaramadoubocarba@gmail.com",
+    "body": "Bravo et merci pour cette magnifique projet",
+    "created": "2022-04-02T16:10:59.123Z",
+    "updated": "2022-04-02T16:10:59.123Z"
+  }
+},
+{
+  "model": "home.comment",
+  "pk": 2,
+  "fields": {
+    "post": 4,
+    "username": "Ablaye",
+    "email": "ablayediallo@gmail.com",
+    "body": "Merci a vous aussi pour votre soutien",
+    "created": "2022-04-02T16:14:17.910Z",
+    "updated": "2022-04-02T16:14:17.910Z"
+  }
+},
+{
+  "model": "home.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "username": "Kelly",
+    "email": "kelly@gmail.com",
+    "body": "Commentaire test",
+    "created": "2022-04-02T17:38:26.727Z",
+    "updated": "2022-04-02T17:38:26.727Z"
+  }
+},
+{
+  "model": "home.membres",
+  "pk": 1,
+  "fields": {
+    "nom": 2,
+    "role": "Président ONG Ensemble Pour un Avenir Meilleur",
+    "photo": "uploads/team-1_rg2nJew.jpg",
+    "upload_to": "2022-03-28T15:49:26.388Z"
+  }
+},
+{
+  "model": "home.membres",
+  "pk": 2,
+  "fields": {
+    "nom": 3,
+    "role": "Coordinateur Chargé des Affaires Administratives",
+    "photo": "uploads/team-2.jpg",
+    "upload_to": "2022-03-28T15:50:47.242Z"
+  }
+},
+{
+  "model": "home.membres",
+  "pk": 3,
+  "fields": {
+    "nom": 4,
+    "role": "Chargée des Affaires Financières de l'ONG",
+    "photo": "uploads/team-3.jpg",
+    "upload_to": "2022-03-28T15:51:34.233Z"
+  }
+},
+{
+  "model": "home.membres",
+  "pk": 4,
+  "fields": {
+    "nom": 5,
+    "role": "Chargée de l'Organisation et de la Logistique de l'ONG",
+    "photo": "uploads/team-4.jpg",
+    "upload_to": "2022-03-28T15:52:28.116Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 1,
+  "fields": {
+    "nom": "France",
+    "image": "uploads/client-2.png",
+    "upload_to": "2022-03-29T15:02:01.291Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 2,
+  "fields": {
+    "nom": "Mauritanie",
+    "image": "uploads/client-1.png",
+    "upload_to": "2022-03-29T15:39:44.728Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 3,
+  "fields": {
+    "nom": "Goethe Institut",
+    "image": "uploads/client-3_NYlLFIn.png",
+    "upload_to": "2022-03-29T15:01:12.863Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 4,
+  "fields": {
+    "nom": "Caritas",
+    "image": "uploads/client-4.png",
+    "upload_to": "2022-03-29T14:55:45.197Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 5,
+  "fields": {
+    "nom": "France Volontires",
+    "image": "uploads/client-5.jpeg",
+    "upload_to": "2022-03-29T15:00:57.626Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 6,
+  "fields": {
+    "nom": "Repam Assurance",
+    "image": "uploads/client-6.jpeg",
+    "upload_to": "2022-03-29T15:00:39.020Z"
+  }
+},
+{
+  "model": "home.partenaire",
+  "pk": 7,
+  "fields": {
+    "nom": "Union européenne",
+    "image": "uploads/client-7.jpeg",
+    "upload_to": "2022-03-29T15:00:23.287Z"
+  }
+}
+]
