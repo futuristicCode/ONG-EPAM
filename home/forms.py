@@ -38,13 +38,14 @@ class PostForm(forms.ModelForm):
         ('published','Published')
     )
     title  = forms.CharField(max_length=200,widget=forms.TextInput(attrs={"class":"form-control","type":"text","placeholder":"Entre le titre","name":"title"}))
+    slug  = forms.SlugField(max_length=200,widget=forms.TextInput(attrs={"class":"form-control","type":"text","placeholder":"Entre le slug","name":"slug"}))
     status = forms.ChoiceField(choices=STATUS_CHOICES,widget=forms.Select(attrs={"class":"form-select","type":"select","name":"status"}))
     # author = forms.ChoiceField(choices=User,widget=forms.Select(attrs={"class":"form-select","type":"select","name":"author"}))
     # image   = forms.ImageField(widget=forms.FileField(attrs={"class":"form-control","type":"file","name":"image","id":"formFile"}))
     
     class Meta:
         model = Post
-        fields = ['title','body','status','author','image',] 
+        fields = ['title','slug','body','status','author','image',] 
 
 class CommentForm(forms.ModelForm):
     username = forms.CharField(max_length=100,widget=forms.TextInput(attrs={'class':'form-control'}))

@@ -98,7 +98,7 @@ def partenaires_list(request):
   page        = request.GET.get('page')
     
   try:
-   partenaires = paginator.page(page)
+    partenaires = paginator.page(page)
   except PageNotAnInteger:
     partenaires = paginator.page(1)
   except EmptyPage:
@@ -118,7 +118,7 @@ def login_view(request):
 
 def register_view(request):
   if request.user.is_authenticated:
-   return render(request, 'blog/auth/register.html',)
+    return render(request, 'blog/auth/register.html',)
   return redirect('/login/')
 
 def verify(request,token):
@@ -140,11 +140,12 @@ def add_blog(request):
   if request.user.is_authenticated:
     context = {'form': PostForm}
     try:
-       if request.method == 'POST':
+        if request.method == 'POST':
           form = PostForm(request.POST)
           print(request.FILES)
           image = request.FILES['image']
           title = request.POST.get('title')
+          slug = request.POST.get('slug')
           body = request.POST.get('body')
           status= request.POST.get('status')
           author = request.user
@@ -153,7 +154,8 @@ def add_blog(request):
             body = form.cleaned_data['body']
             
           blog_obj = Post.objects.create(
-              author = author,title = title, 
+              author = author,title = title,
+              slug = slug, 
               body = body, image = image,
               status = status,
             )
@@ -161,7 +163,7 @@ def add_blog(request):
           return redirect('/add-blog/')
             
     except Exception as e :
-     print(e)
+      print(e)
       
     return render(request, 'blog/auth/add_blog.html',context)
   return redirect('/login/')
@@ -247,8 +249,8 @@ def update_blog(request,pk):
         
         
      # blog_obj = Post.objects.get(slug = slug)
-     # blog_obj = Post.objects.get(id = pk)
-      blog_obj = Post.objects.get(pk = pk)
+      blog_obj = Post.objects.get(id = pk)
+      #blog_obj = Post.objects.get(pk = pk)
     
     
     
@@ -276,8 +278,7 @@ def update_blog(request,pk):
           status = status,
           )
           
-        return redirect('/see-blog/')
-               
+        return redirect('/see-blog/')         
       context['blog_obj'] = blog_obj
       context['form'] = form
     
